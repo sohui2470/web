@@ -1,0 +1,55 @@
+<!doctype html>
+<link rel="stylesheet" href="style.css">
+<html>
+<meta charset = "utf-8">
+<head>
+  <h1><a href="file:///C:/web/book0.html" target="_self" title: "homepage">ebook store</a></h1>
+  <title>book intro</title>
+</head>
+
+<body>
+  <div id="grid">
+    <div id ="list">
+      <input type="button" value="dark mode" onclick="
+        var target = document.querySelector('body').style;
+        if(this.value == 'dark mode'){
+          target.backgroundColor='black';
+          target.Color='white';
+          this.value='light mode';
+          var alist = document.querySelectorAll('a');
+        var i=0;
+        while(i < alist.length){
+            console.log(alist[i]);
+        alist[i].style.color ='powderblue';
+        i++;
+        }
+        } else {
+        target.backgroundColor='white';
+        target.Color='black';
+        this.value='dark mode';
+        var alist = document.querySelectorAll('a');
+        var i=0;
+        while(i < alist.length){
+            console.log(alist[i]);
+        alist[i].style.color ='gray';
+        i++;
+        }
+        }
+        ">
+  <ol>
+    <li><a href = "file:///C:/web/book1.html" target="_self" title: "Yes24">Yes24</a></li>
+      <li><a href = "file:///C:/web/book2.html" target="_self" title: "Kyobo">Kyobo</a></li>
+        <li><a href ="file:///C:/web/book3.html" target="_self" title: "Aladin">Aladin</a></li>
+        </ol>
+      </div>
+      <div id="contents">
+        <h2>NOOK GLOWLIGHT 3</h2>
+        <p><a href="https://www.barnesandnoble.com/" target="_blank" title="barnesandnoble">
+          <strong>FIND YOUR PLACE AT B&N's ONLINE BOOKSTORE</strong></p>
+          <p>Over 5 million books ready to ship & 3.6 million eBooks to download right now. Curbside pickup available in most stores!
+          </p></a>
+          <a href="https://blog.naver.com/sohui7788/221686913055" target"_blank" title="nook glowlight 3 review">wanna see more?</a>
+        </div>
+      </div>
+        </body>
+        </html>
